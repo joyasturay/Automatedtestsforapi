@@ -7,7 +7,7 @@
 
 **AutoTest.ai** is an intelligent developer tool that autonomously generates, executes, and scaffolds test suites for backend APIs. By leveraging Large Language Models (LLMs) via **Google Gemini**, it transforms raw code snippets into rigorous, executable test cases in seconds.
 
-🔗 **Live Demo:** [https://auto-test-ai.vercel.app](https://auto-test-ai.vercel.app)
+🔗 **Live Demo:** [https://automatedtestsforapi.vercel.app/](https://automatedtestsforapi.vercel.app/)
 
 ---
 
