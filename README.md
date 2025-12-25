@@ -1,7 +1,7 @@
 # ⚡ AutoTest.ai - AI-Powered API Testing Agent
 
-![Project Screenshot](screenshot.png)
-*(Replace this line with the relative path to your screenshot, e.g., ./public/screenshot.png)*
+![Project Screenshot](screenshot.png?v=2)
+
 
 ### Stop writing boilerplate. Start validating logic.
 
