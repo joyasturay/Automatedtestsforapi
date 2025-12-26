@@ -45,7 +45,11 @@ export default function Home() {
     const newResults: any = {};
     for (const test of testCases) {
       try {
-        const res = await axios.post(targetUrl, test.input, { validateStatus: () => true });
+        const res = await axios.post(targetUrl, test.input, { validateStatus: () => true ,
+          headers: {
+            "ngrok-skip-browser-warning": "true" 
+          }
+        });
         const passed = res.status === test.expectedStatus;
         newResults[test.name] = { passed, actualStatus: res.status, expectedStatus: test.expectedStatus };
       } catch (err) {
