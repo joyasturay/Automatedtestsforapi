@@ -118,6 +118,7 @@ export default function Home() {
                 onChange={(e) => setCodeSnippet(e.target.value)}
                 className="w-full h-[500px] bg-[#111] border border-[#333] rounded-lg p-4 text-sm font-mono text-gray-300 focus:outline-none focus:border-white transition-colors resize-none leading-relaxed"
                 placeholder="// Paste your route.ts here..."
+                
               />
             </div>
 
